@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #FFFBC1;
+}
+
+header {
+    background-color: rgba(217, 217, 217, 0.2);
+}
+
+header a:visited,
+header a:active,
+header a:link {
+    color: #AE6276;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.first-content {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+
+nav a {
+    margin-left: 20px;
+}
