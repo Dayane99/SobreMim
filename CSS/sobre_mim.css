@@ -1,0 +1,39 @@
+:root {
+    --background-color: #BEACE8;
+    --color: #010204;
+}
+
+body {
+    background-color: var(--background-color)
+}
+
+header a:visited,
+header a:active,
+header a:link {
+    color: #AE6276;
+}
+
+.about {
+    display: flex;
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 163, 188, 1) 50%, rgba(255, 255, 255, 0) 50%);
+    align-items: center;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+img {
+    margin-right: 20px;
+    filter: drop-shadow(-17px 17px 0px #AE6276);
+}
