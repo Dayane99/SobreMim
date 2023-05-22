@@ -9,6 +9,12 @@ footer {
     background-color: rgba(217, 217, 217, 0.2);
 }
 
+header a:visited,
+header a:active,
+header a:link {
+    color: #AE6276;
+}
+
 .container {
     width: 1200px;
     margin: 0 auto;
