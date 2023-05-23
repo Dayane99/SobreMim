@@ -21,6 +21,9 @@ body {
 
 }
 
+h1 {
+    color: rgb(227, 90, 127);
+}
 
 .centro {
     display: flex;
@@ -36,7 +39,7 @@ body {
 }
 
 .eu {
-    width: 100%;
+    width: 80%;
 }
 
 .formulario {
