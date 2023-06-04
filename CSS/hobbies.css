@@ -1,12 +1,15 @@
 :root {
-    --background-color: #BFEFFF;
+    --background-color: #bfefff;
     --color: #010204;
 }
+
+/* cores mais utilizadas */
 
 body {
     background-color: var(--background-color)
 }
 
+/* cor de fundo do body */
 
 .hobbies {
     display: flex;
@@ -17,24 +20,31 @@ body {
     align-items: center;
 }
 
+/* organização dos itens com display, definição de um tamanho minimo para o conteúdo e complemento da cor de fundo */
+
 .conteudo {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
     gap: 120px;
-
 }
+
+/* caixa delimitando o conteudo principal do site */
 
 .conteudo>p {
     font-size: 24px;
 }
+
+/* tamanho da fonte dos paragrafos */
 
 h1 {
     color: rgb(227, 90, 127);
     text-align: center;
     padding: 30px;
 }
+
+/* estilização do titulo */
 
 img {
     height: 625px;
@@ -43,10 +53,16 @@ img {
     filter: drop-shadow(17px -17px 0px #AE6276);
 }
 
+/* tamanho e sobra atrás das imgs da esquerda */
+
 .shadow {
     filter: drop-shadow(-17px -17px 0px #AE6276);
 }
 
+/* sombra das imgs da direita */
+
 .final {
     padding-bottom: 30px;
 }
+
+/* espaçamento do final da pág */

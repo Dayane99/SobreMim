@@ -1,8 +1,11 @@
+/* PASTA CONTENDO ESTILIZAÇÕES PADRÃO */
 
 header,
 footer {
     background-color: rgba(217, 217, 217, 0.2);
 }
+
+/* BG do header e footer */
 
 header a:visited,
 header a:active,
@@ -10,11 +13,14 @@ header a:link {
     color: #AE6276;
 }
 
+/* padronização de cor das tags a do header */
+
 .container {
     width: 1200px;
     margin: 0 auto;
 }
 
+/* margem padrão para o conteúdo */
 
 .first-content {
     display: flex;
@@ -23,14 +29,19 @@ header a:link {
     align-items: center;
 }
 
+/* formatação padrão, disposição dos objetos na tela */
+
 nav a {
     margin-left: 20px;
 }
+
+/* espaçamento entre os itens dentro do nav */
 
 footer {
     height: 20px;
     display: flex;
     justify-content: center;
     color: #AE6276;
-
 }
+
+/* disposição e cor dos elementos do footer */

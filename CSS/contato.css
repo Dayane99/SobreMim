@@ -2,6 +2,8 @@ body {
     background-color: #FAD7B4;
 }
 
+/* cor de fundo do body */
+
 .contact {
     display: flex;
     width: 100%;
@@ -11,6 +13,8 @@ body {
     align-items: center;
 }
 
+/* organização dos itens com display, definição de um tamanho minimo para o conteúdo e complemento da cor de fundo */
+
 .background {
     display: flex;
     flex-direction: column;
@@ -18,17 +22,22 @@ body {
     align-items: center;
     background: #BFEFFF;
     height: 600px;
-
 }
+
+/* tamanho cor e alinhamento bg */
 
 h1 {
     color: rgb(227, 90, 127);
 }
 
+/* cor do titulo */
+
 .centro {
     display: flex;
 
 }
+
+/*utilizei para conseguir fazer o próximo bloco de código */
 
 .esq,
 .dir {
@@ -38,15 +47,20 @@ h1 {
     width: 100%;
 }
 
+/* alinhamento dos dois itens principais no centro */
+
 .eu {
     width: 80%;
 }
 
+/* tamanho da minha foto */
+
 .formulario {
     display: flex;
     flex-direction: column;
-
 }
+
+/* display para alinhamento dos itens do form */
 
 .nome,
 .email,
@@ -55,3 +69,5 @@ h1 {
     flex-direction: column;
     padding: 10px;
 }
+
+/* alinhamento dos itens dentro do form */

@@ -2,7 +2,8 @@ body {
     background-color: #FFFBC1;
 }
 
-/* plano de fundo + tela fixa */
+/* cor plano de fundo body */
+
 .about {
     width: 100%;
     min-height: calc(100vh - 60px);
@@ -10,7 +11,8 @@ body {
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 50%, rgba(255, 163, 188, 1) 50%);
 }
 
-/* duas colunas, calc para tela fixa */
+/* organização dos itens com display, definição de um tamanho minimo para o conteúdo e complemento da cor de fundo */
+
 .colunas {
     width: 100%;
     min-height: calc(100vh - 80px);
@@ -19,21 +21,31 @@ body {
     align-items: center;
 }
 
+/* organização dos itens com display, definição de um tamanho minimo para o conteúdo e complemento da cor de fundo */
+
 h1 {
     color: #02ACEF;
     margin-bottom: 30px;
 }
 
+/* estilização titulo */
+
 h2 {
     color: rgb(105, 157, 28);
 }
+
+/* estilização do subtitulo */
 
 main span {
     margin-left: 20px;
 }
 
+/* criando um pseudo tab */
+
 img {
     height: 500px;
     width: 500px;
-    filter: drop-shadow(17px -17px 0px #AE6276);
+    filter: drop-shadow(17px 17px 0px #AE6276);
 }
+
+/* tamanho e sobra de trás da foto */
