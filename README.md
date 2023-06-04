@@ -1,0 +1,1 @@
+# SobreMim <br> Projeto individual, M1: Trabalho foi criado em Html e CSS utilizando os conhecimentos adquiridos no curso até o momento. <br> Contém uma aba home e outras 3 paginas com: sobre mim, hobbies e contatos.
